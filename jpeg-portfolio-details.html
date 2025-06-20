@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Starter Page - MyResume Bootstrap Template</title>
+  <title>Portfolio Details - MyResume Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -36,7 +36,7 @@
   ======================================================== -->
 </head>
 
-<body class="starter-page-page">
+<body class="portfolio-details-page">
 
   <header id="header" class="header d-flex flex-column justify-content-center">
 
@@ -63,41 +63,114 @@
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Starter Page</li>
+            <li class="current">Portfolio Details</li>
           </ol>
         </nav>
-        <h1>Starter Page</h1>
+        <h1>JPEG Decompression Accelerator</h1>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Starter Section Section -->
-    <section id="starter-section" class="starter-section section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Starter Section</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
 
       <div class="container" data-aos="fade-up">
-        <p>Use this page as a starter for your own custom pages.</p>
+
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+
+            <div class="swiper-slide">
+              <img src="assets/jpeg_assets/img/jpeg.png" alt="JPEG Decompression Accelerator Architecture Diagram">
+            </div>
+
+            <!-- <div class="swiper-slide">
+              <img src="assets/img/portfolio/product-1.jpg" alt="">
+            </div> -->
+
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>Details</h2>
+              <p>
+                JPEG is a widely used image compression standard, but
+                the decompression process is computationally intensive and
+                due to its widespread usage, provides a reason for hav-
+                ing a dedicated module in a System-on-Chip (SoC) plat-
+                form. This project introduces a hardware accelerator de-
+                signed to efficiently perform JPEG decompression on a mo-
+                bile System-on-Chip. The design integrates key stages of
+                the decoding pipeline—including entropy decoding, coef-
+                ficient reconstruction, inverse transforms, chroma upsam-
+                pling, and color space conversion—into a pipelined, and
+                almost multiplier free architecture. The accelerator was
+                evaluated on a variety of JPEG images and demonstrated
+                significant performance gains compared to software-based
+                decoding, making it well-suited for embedded and mobile
+                applications.
+              </p>
+              <p>
+                Our project report is available here: <a href="assets/jpeg_assets/docs/JPEG_Decoding_Accelerator_Report.pdf" target="_blank">JPEG_Decoding_Accelerator_Report.pdf</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <!-- <li><strong>Category</strong> Web design</li>
+                <li><strong>Client</strong> ASU Company</li> -->
+                <li><strong>Project date</strong> May 2025</li>
+                <li><strong>Project URL</strong> <a href="https://github.com/velumanohar2000/JPEG-Decompression-Accelerator">github</a></li>
+                <!-- <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li> --> 
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
       </div>
 
-    </section><!-- /Starter Section Section -->
+    </section><!-- /Portfolio Details Section -->
 
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
     <div class="container">
-      <h3 class="sitename">Velu Manohar</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <h3 class="sitename"></h3>
+      <!-- <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
       <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-twitter-x"></i></a>
         <a href=""><i class="bi bi-facebook"></i></a>
         <a href=""><i class="bi bi-instagram"></i></a>
         <a href=""><i class="bi bi-skype"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
-      </div>
+        <a href="https://www.linkedin.com/in/velumanohar2000/"><i class="bi bi-linkedin"></i></a>
+      </div> -->
       <div class="container">
         <div class="copyright">
           <span>Copyright</span> <strong class="px-1 sitename">Alex Smith</strong> <span>All Rights Reserved</span>
