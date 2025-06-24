@@ -66,7 +66,7 @@
             <li class="current">Portfolio Details</li>
           </ol>
         </nav>
-        <h1>Bare Metal RTOS</h1>
+        <h1>2024 IEEE Region 5 Robotics Competition</h1>
       </div>
     </div><!-- End Page Title -->
 
@@ -97,9 +97,9 @@
           </script>
           <div class="swiper-wrapper align-items-center">
 
-          <div class="swiper-slide text-center">
-            <img src="assets/rtos_assets/img/tm4c_rtos.jpg" alt="Photo of rtos" class="img-fluid w-50">
-          </div>
+            <div class="swiper-slide">
+              <img src="assets/r5_robotics_comp_assets/img/r5_robo.jpg" alt="Photo of our robot">
+            </div>
 
             <!-- <div class="swiper-slide">
               <img src="assets/img/portfolio/product-1.jpg" alt="">
@@ -117,27 +117,28 @@
             <div class="portfolio-description">
               <h2>Details</h2>
               <p>
-              This project is a lightweight Real-Time Operating System (RTOS) developed from scratch for the TM4C123GH6PM microcontroller. 
-              It supports cooperative multitasking, allowing multiple threads to run concurrently by explicitly yielding control to one another. 
-              The system was designed and implemented entirely at the bare-metal level, with direct control over hardware resources and no reliance 
-              on external frameworks or prebuilt libraries.
-              <br>
-              The RTOS manages thread creation, context switching, and scheduling through manual stack management and ARM Cortex-M exception handling. 
-              A system timer provides basic timing functionality, enabling features like sleep and delay.
-                <br>
-                Key features include:
-                <ul>
-                  <li>Cooperative scheduling between multiple user-defined threads</li>
-                  <li>Manual stack initialization and context preservation</li>
-                  <li>Round-robin or static-priority thread selection</li>
-                  <li>Configurable MPU regions for isolating thread stack and code access</li>
-                  <li>Custom fault handling</li>
-                </ul>
-                  Through building this RTOS from scratch, I gained a deep understanding of how embedded systems manage CPU execution, 
-                  schedule tasks, and enforce memory safety without relying on external libraries. I learned how to implement context 
-                  switching at the register level, use exceptions like PendSV for task scheduling, and configure the MPU to isolate memory regions. 
-                  This project sharpened my low-level debugging skills and gave me practical insight into the inner workings of real-time systems.
+                As part of my Senior Design capstone, I collaborated with a 
+                team of four classmates to build a fully autonomous robot for 
+                the 2024 IEEE Region 5 Robotics Competition, held in Fayetteville, Arkansas. 
+                The challenge centered on endurance, strategy, and efficiency: 
+                each robot had to navigate a course in real time while competing 
+                side-by-side with others—all powered solely by a supercapacitor.
+                What made the competition unique was its power 
+                constraint. Robots began each round wirelessly 
+                charged via a Qi pad, with limited opportunities to 
+                recharge mid-race at designated stations. This 
+                forced us to be intentional with every design decision.
+                My focus was on optimizing power efficiency through 
+                both hardware and software. We selected low-power 
+                components, stripped down unnecessary operations, 
+                and designed algorithms that prioritized survival 
+                without sacrificing performance. 
+                The result: our robot outlasted and outpaced the field, 
+                earning first place.
               </p>
+            <p>
+              Our project poster is available here: <a href="assets/r5_robotics_comp_assets/docs/bit_bangers_poster.pdf" target="_blank">r5_robot_comp_poster.pdf</a>
+            </p>
             </div>
           </div>
 
@@ -147,8 +148,8 @@
               <ul>
                 <!-- <li><strong>Category</strong> Web design</li>
                 <li><strong>Client</strong> ASU Company</li> -->
-                <li><strong>Project date</strong> December 2023</li>
-                <li><strong>Project URL</strong> <a href="https://github.com/velumanohar2000/TM4C-RTOS">github</a></li>
+                <li><strong>Project date</strong> May 2024</li>
+                <li><strong>Project URL</strong> <a href="https://github.com/velumanohar2000/IEEE-R5-Robotics-2024">github</a></li>
                 <!-- <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li> -->
               </ul>
             </div>
@@ -165,6 +166,14 @@
   <footer id="footer" class="footer position-relative light-background">
     <div class="container">
       <h3 class="sitename"></h3>
+      <!-- <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-skype"></i></a>
+        <a href="https://www.linkedin.com/in/velumanohar2000/"><i class="bi bi-linkedin"></i></a>
+      </div> -->
       <div class="container">
         <div class="copyright">
           <span>Copyright</span> <strong class="px-1 sitename">Alex Smith</strong> <span>All Rights Reserved</span>
